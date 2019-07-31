@@ -5,7 +5,7 @@ See also: [How to use Femap Scripts](https://github.com/aaronjasso/How_to_use_Fe
 
 ---
 
-Laminates typically require a material direction. When an analysis is run, Femap will warn the user of any laminate elements with 'default' material directions (which means they weren't defined by the user). Sometimes they can be hard to locate in the model, so this program simplifies the process. It checks all laminate elements and if any are found with default material orientations, it creates a group and adds the affected elements.
+Laminates typically require a material direction. When an analysis is run, Femap will warn the user of any laminate elements with 'default' material directions (which means they weren't defined by the user). Sometimes they can be hard to locate in the model, so this program simplifies the process. It checks all laminate elements and if any are found with default material orientations, it creates a new group and adds the elements.
 
 ![Group Created](images/somefound.png)
 
